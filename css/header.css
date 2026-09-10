@@ -11,13 +11,16 @@ header {
   display: inline-block;
   width: 68px;
   height: 64px;
- 
 }
 
-.navigation-menu{
+.navigation-menu {
   margin-top: 24px;
 }
 
-nav{
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
+nav {
   display: none;
 }
