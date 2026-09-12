@@ -15,6 +15,10 @@
 
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
+
+  --title-wheight: 700;
+  --text-wheight: 400;
+  --menu-text-weight: 500;
 }
 
 /* CSS RESET */
