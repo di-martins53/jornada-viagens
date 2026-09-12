@@ -49,16 +49,16 @@ body {
   margin: 0;
   text-align: center;
 }
-.section-title hr{
+.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--buton-secondary-color);
-  border:none;
+  border: none;
   margin: 16px auto 32px;
 }
 
-@media screen and (min-width 768px) {
+@media screen and (min-width: 768px) {
   .section-title h2 {
-  font-size: 32px;
+    font-size: 32px;
   }
 }
