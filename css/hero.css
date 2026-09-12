@@ -32,16 +32,15 @@
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
-}
 
-.hero h2 {
-  padding: 104px 120px;
-  margin: 0;
+    .hero h2 {
+        padding: 104px 120px;
+        margin: 0;
 }
-
+}
 @media screen and (min-width: 1920px) {
-.hero h2 {
-  padding: 104px 160px;
-  margin: 0;
-}
+  .hero h2 {
+    padding: 104px 160px;
+    margin: 0;
+  }
 }
