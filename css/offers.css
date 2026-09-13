@@ -7,25 +7,44 @@
   color: var(--text-secondary-color);
   background-color: black;
   border-radius: 16px;
+  margin-bottom: 24px;
 }
 
 .card header {
   display: block;
   background-color: transparent;
   position: static;
-  padding: 24px 16px;
+  padding: 0px;
+  margin-bottom: 24px;
 }
-.card header p{
-    font-size: 20px;
-    font-weight: var(--text-wheight);
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-wheight);
 }
-.card header h3{
-    font-size: 40px;
-    font-weight: var(--title-wheight);
-    margin: 8px 0 0;
+.card header h3 {
+  font-size: 40px;
+  font-weight: var(--title-wheight);
+  margin: 8px 0 0;
 }
-.card header span{
-    font-size: 32px;
-    display: inline-block;
-    margin-top: 24px;
+.card header span {
+  font-size: 32px;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
+    .card {
+      width: 588px;
+      height: 308px;
+    }
+
+    .card header h3 {
+      font-size: 48px;
+    }
+
+    .card header span {
+      font-size: 40px;
+    }
+  }
 }
