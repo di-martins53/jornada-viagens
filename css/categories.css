@@ -1,3 +1,8 @@
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
 .categories-cards {
   display: flex;
   flex-direction: column;
@@ -16,6 +21,11 @@
   text-decoration: none;
   color: var(--text-primary-color);
 }
+
+.categories-cards h3 {
+  font-size: 28px;
+  font-weight: var(--title-wheight);
+}
 /* trick */
 .categories-cards .card.single-line {
   padding-top: 50px;
@@ -24,19 +34,17 @@
 .categories-cards .card.single-line.transfer img {
   margin: 10px 0 20px;
 }
-.categories .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
+
 @media screen and (min-width: 768px) {
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-}
-.categories .section-title {
-  width: 100%;
+
+  .categories .section-title {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
