@@ -1,3 +1,7 @@
+.offers {
+  margin-bottom: 104px;
+}
+
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -5,34 +9,33 @@
   gap: 24px;
 }
 
-.card {
+.offers-cards .card {
   width: 312px;
   height: 288px;
   padding: 24px 16px;
   box-sizing: border-box;
   text-align: center;
   color: var(--text-secondary-color);
-  background-color: black;
   border-radius: 16px;
 }
 
-.card header {
+.offers-cards .card header {
   display: block;
   background-color: transparent;
   position: static;
   padding: 0px;
   margin-bottom: 24px;
 }
-.card header p {
+.offers-cards .card header p {
   font-size: 20px;
   font-weight: var(--text-wheight);
 }
-.card header h3 {
+.offers-cards .card header h3 {
   font-size: 40px;
   font-weight: var(--title-wheight);
   margin: 8px 0 0;
 }
-.card header span {
+.offers-cards .card header span {
   font-size: 32px;
   display: inline-block;
   margin-top: 24px;
