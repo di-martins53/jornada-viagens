@@ -1,7 +1,49 @@
+.destination-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.destination-items .item {
+  margin-bottom: 24px;
+}
+
 .destination-items .item header {
   display: block;
   background-color: transparent;
   position: static;
   padding: 0px;
   margin-bottom: 24px;
+}
+
+.img-tokyo {
+  width: 312px;
+  height: 360px;
+  background: url(../img/tokyo-mobile.jpg);
+  background-size: cover;
+}
+
+.img-osaka {
+  width: 312px;
+  height: 360px;
+  background: url(../img/osaka-mobile.jpg);
+  background-size: cover;
+}
+
+.destination-items h4 {
+  font-size: 28px;
+  font-weight: var(--title-wheight);
+  margin: 24px auto;
+}
+
+.destination-items p {
+  width: 312px;
+  font-size: 20px;
+  font-weight: var(--text-wheight);
+  margin-bottom: 24px;
+}
+
+.destination-items .button{
+    text-align: center;
 }
